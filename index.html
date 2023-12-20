@@ -19,24 +19,32 @@
                 <p>This is not a real online service! You know you need somthing like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
                 <p>You know you want to</p>
             </div>
-            <form action="post">
-                    <legend>FIRST NAME</legend>
+            <form  class="form" action="post">
+                    
+                    <legend>Let's do this!</legend>
+                
+                    <fieldset>
+                    <label for="fname">FIRST NAME</label>
                     <input type="text" name="first-name" id="first-name">
 
-                    <legend>LAST NAME</legend>
+                    <label for="lname">LAST NAME</label>
                     <input type="text" name="last-name" id="last-name">
-
-                    <legend>EMAIL</legend>
+                    </fieldset>
+                    <fieldset>
+                    <label for="email">EMAIL</label>
                     <input type="email" name="email" id="email">
 
-                    <legend>PHONE NUMBER</legend>
+                    <label for="number">PHONE NUMBER</label>
                     <input type="tel" name="number" id="number">
+                    </fieldset>
 
-                    <legend>PASSWORD</legend>
+                    <fieldset>
+                    <label for="password">PASSWORD</label>
                     <input type="password" name="password" id="password">
 
-                    <legend>CONFIRM PASSWORD</legend>
-                    <input type="password" name="password" id="password">
+                    <label for="cpassword">CONFIRM PASSWORD</label>
+                    <input type="password" name="cpassword" id="cpassword">
+                    </fieldset>
             </form>
             <div class="footer">
                 <button type="submit">Create Account</button>
